@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d14;
+    color: #ffff;
+}
+
+.box {
+    text-align: center;
+    background-color: #15173c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+table {
+    margin-top: 10px;
+}
+
+.display {
+    font-size: 25px;
+    padding: 20px;
+    width: 100%;
+    text-align: right;
+    color: rgb(203, 203, 203);
+    background-color: #171a35;
+    border: none;
+    outline: none;
+    direction: ltr;
+    box-sizing: border-box;
+    height: 80px;
+}
+
+table tr td .button {
+    align-items: center;
+    padding: 10px;
+    margin: 8px;
+    width: 62px;
+    height: 60px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #15173c;
+    border: none;
+    color: #ffff;
+    transition: all ease-out .3s;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #232652;
+    color: #f95443;
+}
+
+#clearbtn {
+    margin-top: 5px;
+    width: 100%;
+    position: sticky;
+    border: none;
+    background-color: #f95443;
+    color: #ffff;
+    height: 50px;
+}
+
+#clearbtn:hover {
+    background-color: #f66a5a;
+}
+
+table tr td button {
+    margin: 5px;
+}
+
+.top {
+    background-color: rgb(8, 6, 41);
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    color: #f95443;
+    background-color: #232652;
+    padding: 25px;
+}
+
+header h3 {
+    font-size: 25px;
+}
+
+#equal {
+    color: #f95443;
+}
+
+#equal:hover {
+    color: #ffff;
+}
+
+.info h5 {
+    color: rgba(78, 78, 78, 0.842);
+}
+
+
+/*media queries*/
+
+@media (min-width:240px) {
+    body {
+        height: 100vh;
+    }
+    table tr td .button {
+        margin: 8px;
+        text-align: center;
+        width: 30px;
+        height: 35px;
+        line-height: 10px;
+        text-align: center;
+        background-color: #15173c;
+        border: none;
+        color: #ffff;
+        font-size: 10px;
+        transition: all ease .3s;
+    }
+    #clearbtn {
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+    .box {
+        text-align: center;
+        background-color: #15173c;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        width: 14.5rem;
+        margin-top: 2rem;
+        height: 23rem;
+    }
+    header h3 {
+        font-size: 12px;
+        margin-top: 0.25rem;
+    }
+    .info h5 {
+        font-size: 10px;
+        margin-top: 24.5rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width:320px) {
+    body {
+        height: 100vh;
+    }
+    table tr td .button {
+        margin: 8px;
+        text-align: center;
+        width: 30px;
+        height: 35px;
+        line-height: 10px;
+        text-align: center;
+        background-color: #15173c;
+        border: none;
+        color: #ffff;
+        font-size: 10px;
+        transition: all ease .3s;
+    }
+    #clearbtn {
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+    .box {
+        text-align: center;
+        background-color: #15173c;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        width: 14.5rem;
+        margin-top: 2rem;
+        height: 23rem;
+    }
+    header h3 {
+        font-size: 12px;
+        margin-top: 0.25rem;
+    }
+    .info h5 {
+        font-size: 10px;
+        margin-top: 28rem;
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width:425px) {
+    body {
+        height: 100vh;
+    }
+    table tr td .button {
+        margin: 8px;
+        text-align: center;
+        width: 30px;
+        height: 35px;
+        line-height: 10px;
+        text-align: center;
+        background-color: #15173c;
+        border: none;
+        color: #ffff;
+        font-size: 10px;
+        transition: all ease .3s;
+    }
+    #clearbtn {
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+    }
+    .box {
+        text-align: center;
+        background-color: #15173c;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        width: 14.5rem;
+        margin-top: 2rem;
+        height: 23rem;
+    }
+    header h3 {
+        font-size: 12px;
+        margin-top: 0.25rem;
+    }
+    .info h5 {
+        font-size: 10px;
+        margin-top: 29rem;
+        margin-left: 7rem;
+    }
+}
+
+@media (min-width:768px) {
+    body {
+        height: 100vh;
+    }
+    table tr td .button {
+        margin: 9px;
+        text-align: center;
+        width: 50px;
+        height: 40px;
+        line-height: 10px;
+        text-align: center;
+        background-color: #15173c;
+        border: none;
+        color: #ffff;
+        font-size: 15px;
+        transition: all ease .3s;
+    }
+    #clearbtn {
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .box {
+        text-align: center;
+        background-color: #15173c;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        width: 20rem;
+        height: 28rem;
+    }
+    header h3 {
+        font-size: 12px;
+        margin-top: 0.25rem;
+    }
+    .info h5 {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 29.8rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width:1024px) {
+    body {
+        height: 100vh;
+    }
+    table tr td .button {
+        margin: 8px;
+        text-align: center;
+        margin-left: 1.2rem;
+        width: 5rem;
+        height: 4rem;
+        line-height: 5px;
+        text-align: center;
+        background-color: #15173c;
+        border: none;
+        color: #ffff;
+        font-size: 25px;
+        transition: all ease .3s;
+    }
+    #clearbtn {
+        height: 50px;
+        width: 100%;
+        justify-content: center;
+        font-size: 1.5rem;
+        padding: 35px;
+        line-height: 5px;
+    }
+    .display {
+        padding: 1rem;
+    }
+    .box {
+        text-align: center;
+        background-color: #15173c;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px;
+        width: 30rem;
+        height: 35rem;
+    }
+    header h3 {
+        font-size: xx-large;
+    }
+    .info h5 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 37.5rem;
+        margin-left: 6rem;
+    }
+}
